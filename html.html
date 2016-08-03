@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>MontyTest</title>
+    <meta charset="UTF-8">
+    <script src='script.js'></script>
+    <script src="jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+
+  <body>
+    <img src="imgs/door1.png" alt="door1" class="door close" id="door1"/>
+    <img src="imgs/door2.png" alt="door2" class="door close" id="door2"/>
+    <img src="imgs/door3.png" alt="door3" class="door close" id="door3"/>
+
+
+    <div class='ask'>
+      <p>Do you want to play one more time?</p>
+      <button name='yes'>Yes</button>
+    </div>
+
+
+    <div class='total'>
+      <h3>Total Results</h3>
+      <p>
+        Total played : <span class="played"></span></br>
+        Total changed mind : <span class="change"></span></br>
+        Total won : <span class="won"></span></br>
+        </br>
+        <b>Won on change :</b> <span class="wonOnChange"></span></br>
+        <b>Won on stay :</b> <span class="wonOnStay"></span></br>
+      </p>
+    </div>
+
+    <h3>Detail Result Table</h3>
+    <table name="result">
+      <tr>
+       <th>Door 1</th>
+       <th>Door 2</th>
+       <th>Door 3</th>
+       <th>First Choise</th>
+       <th>Second Choise</th>
+       <th>Is Changed Mind</th>
+       <th>Is Won</th>
+      </tr>
+    </table>
+  </body>
+
+</html>

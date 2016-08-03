@@ -1,0 +1,44 @@
+img {
+  margin: 20px;
+  /*margin-left: 35px;*/
+}
+
+img.close {
+    height: 200px;
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+
+img.open {
+    height: 240px;
+    margin-right: 8px;
+}
+
+table, td, th {
+  border: solid black 1px;
+  margin: 0;
+  padding: 2px;
+}
+
+
+div.ask {
+  display: none;
+  background-color: #157;
+  border-radius: 10px;
+  padding: 30px;
+  width: 200px;
+  position: absolute;
+  left: 680px;
+  top: 40px;
+  text-align: center;
+}
+
+div.total {
+  background-color: #daa954;
+  border-radius: 10px;
+  position: absolute;
+  left: 700px;
+  top: 350px;
+  padding-left: 20px;
+  width: 200px
+}
